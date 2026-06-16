@@ -40,17 +40,6 @@
   </div>
 </div>
 
-<div class="px-4" x-show="showEditForm">
-  <div class="p-4 mb-4 bg-white rounded-lg shadow sm:p-6 xl:p-8 dark:bg-gray-800">
-    <h3 class="mb-4 text-xl font-bold dark:text-white">Edit Employee</h3>
-    <div>
-
-
-    </div>
-
-  </div>
-</div>
-
 {{ employees |json_script:"employees" }}
 
 <script src="{% static 'scripts/index-page.js' %}"></script>
