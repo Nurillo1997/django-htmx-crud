@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'uiapp.apps.UiappConfig',
     'django_browser_reload',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
