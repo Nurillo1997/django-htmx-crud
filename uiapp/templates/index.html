@@ -23,7 +23,8 @@
                 {"headerText": "Salary", "field": "sal", "template": "salaryTemplate"},
                 {"headerText": "Commission Pct", "field": "comm"},
                 {"headerText": "Manager", "field": "manager"},
-                {"headerText": "Department", "field": "dept"}]'>
+                {"headerText": "Department", "field": "dept"},
+                {"headerText": "", "field": "empno", "template": "editTemplate", "sortable": "disabled"}]'>
 
       <template slot="titleTemplate" data-oj-as="title">
         <oj-bind-text value="[[title.data]]"></oj-bind-text>
@@ -34,9 +35,23 @@
       <template slot="salaryTemplate" data-oj-as="salary">
         <oj-bind-text value="[[formatSal(salary.data)]]"></oj-bind-text>
       </template>
-
+      <template slot="editTemplate" data-oj-as="row">
+        <button class="oj-button oj-button-sm edit-employee-btn" type="button">
+          <span class="emp-id-holder" style="display:none;">
+            <oj-bind-text value="[[row.data]]"></oj-bind-text>
+          </span>
+          Edit
+        </button>
+      </template>
     </oj-table>
 
+  </div>
+</div>
+
+<div class="px-4" id="edit-form-section" style="display:none;">
+  <div class="p-4 mb-4 rounded-lg shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+    <h3 class="mb-4 text-xl font-bold dark:text-white">Edit Employee</h3>
+    <div id="edit-form-container"></div>
   </div>
 </div>
 
