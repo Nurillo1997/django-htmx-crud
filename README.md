@@ -1,7 +1,10 @@
 # Django, Oracle JET and HTMX
 
-**ADMIN PANEL Live demo** [https://django-htmx-crud.onrender.com/admin](https://django-htmx-crud.onrender.com/admin/)
-**USER PANEL Live demo** [https://django-htmx-crud.onrender.com](https://django-htmx-crud.onrender.com)
+**Live demo**: [https://django-htmx-crud.onrender.com](https://django-htmx-crud.onrender.com)
+**Admin panel**: [https://django-htmx-crud.onrender.com/admin](https://django-htmx-crud.onrender.com/admin) — login: `admin` / `mashaxon990707`
+
+> Note: this app runs on Render's free tier and may take 30-60 seconds to wake up if idle. The admin account above is a demo-only account on a shared free database; please don't change the password or delete records other visitors might be relying on.
+
 A full-stack web application built with Django, Oracle JET UI components, and HTMX for dynamic interactions.
 
 ## Tech Stack
