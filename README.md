@@ -1,5 +1,7 @@
 # Django, Oracle JET and HTMX
 
+**ADMIN PANEL Live demo** [https://django-htmx-crud.onrender.com/admin](https://django-htmx-crud.onrender.com/admin/)
+**USER PANEL Live demo** [https://django-htmx-crud.onrender.com](https://django-htmx-crud.onrender.com)
 A full-stack web application built with Django, Oracle JET UI components, and HTMX for dynamic interactions.
 
 ## Tech Stack
